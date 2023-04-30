@@ -88,7 +88,7 @@ function Datagrid() {
           aria-describedby="alert-dialog-description"
         >
           <DialogTitle id="alert-dialog-title">
-            {"Use Google's location service?"}
+            {"Do you want to continue your session?"}
           </DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-description">
