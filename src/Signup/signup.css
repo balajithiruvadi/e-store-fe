@@ -1,0 +1,33 @@
+.signupDiv {
+    position: absolute;
+    top:200px;
+    width: 100%;
+}
+.row {
+    padding: 5px
+}
+.dateControl {
+    width:200px;
+}
+.MuiInput-input {
+    min-width: 200px;
+}
+.signupForm {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    max-width: 500px;
+    padding: 20px;
+    margin-left: 500px;
+}
+.jumbotron {
+    position: absolute;
+    top: 125px;
+    margin-left: 500px;
+}
+.error input{
+    border: 1px solid #eb516d;
+}
+.invisible {
+    display: none;
+}
