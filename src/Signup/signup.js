@@ -29,7 +29,6 @@ function Signup() {
     async function save() {
         setBtnClick(true);
         if (!name || !dob || !password) return;
-        alert('next');
         const url = 'http://localhost:8000/user'
         const accessToken = '';
         const data = {
@@ -39,7 +38,6 @@ function Signup() {
         };
         const res = await postData(url, accessToken, data);
         if (res.status === 200 || res.status === 201) {
-            alert('success');
             setsignupFailureFlag(false)
             setLoggedIn('login');
             setUserExists('no');

@@ -28,7 +28,6 @@ function Logincomponent() {
     async function save() {
         setBtnClick(true);
         if (!name || !password) return;
-        alert('next');
         const url = 'http://localhost:8000/user/login'
         const accessToken = '';
         const data = {
